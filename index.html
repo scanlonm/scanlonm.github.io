@@ -1,202 +1,100 @@
-baseURL = "https://www.example.org/"
-languageCode = "en-us"
-theme = "aafu"
+<!DOCTYPE html>
+<html>
 
-[params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
-    description = "Website title"
-    copyright = "short copyright message"
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Scanlonm.GitHub.io : ">
 
-    [params.theme]
-        # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
-        mainTheme = "ocean"
-        # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
-        singlePage = false
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    [params.favicons]
-        use = true
-        metas = '''
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-        <link rel="shortcut icon" href="favicon.ico">
-        '''
+    <title>Scanlonm.GitHub.io</title>
+  </head>
 
-    # Profile section
-    [params.profile]
-        name = "Mike Scanlon, PhD"
-        tagline = "behavioral research"
-        location = "Seattle, WA"
-        photo = "IMG_20200214_171906small.jpg"
+  <body>
 
-    # Section for links to social websites
-    [params.social]
-        title = "Links"
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/scanlonm">View on GitHub</a>
 
-        [[params.social.list]]
-            icon = "fab fa-linkedin-in"
-            url = "https://www.linkedin.com/in/mike-scanlon-45180a108/"
-            title = "LinkedIn"		
-        [[params.social.list]]
-            icon = "fab fa-twitter"
-            url = "https://twitter.com/mvscanlon"
-            title = "Twitter"
-        [[params.social.list]]
-            icon = "fab fa-orcid"
-            url = "#"
-            title = "Orcid"
-        [[params.social.list]]
-            icon = "ai ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-        [[params.social.list]]
-            icon = "fab fa-researchgate"
-            url = "#"
-            title = "ResearchGate"
+          <h1 id="project_title">Scanlonm.GitHub.io</h1>
+          <h2 id="project_tagline"></h2>
 
-    #Specify what is showin in the Accordion
-    [[params.showInAccordion]]
-        item = "aboutme"
-        expand = true   # true for the section that is initially expanded
-    [[params.showInAccordion]]
-        item = "experience"
-    [[params.showInAccordion]]
-        item = "education"
-    [[params.showInAccordion]]
-        item = "publication"
-    [[params.showInAccordion]]
-        item = "project"
-    [[params.showInAccordion]]
-        item = "skill"
-    [[params.showInAccordion]]
-        item = "hobby"
+        </header>
+    </div>
 
-    [params.aboutme]
-        title = "About Me"
-        icon = "fas fa-user"
-        description = "My research describes how people construct their own understanding of the world and their place in it, assesses the value of digital technology tools, encourages creativity in the arts, and incorporates student voice into education research."
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="good-day-thank-you-for-visiting" class="anchor" href="#good-day-thank-you-for-visiting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Good day! Thank you for visiting.</h3>
 
-    # Experience section
-    [params.experience]
-        title = "Experiences"
-        icon = "fas fa-briefcase"
+<p>This portfolio should give you an idea of the work I do. Have any questions at all? Please email me at <a href="mailto:michael.v.scanlon@gmail.com">michael.v.scanlon@gmail.com</a>.</p>
 
-        [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
-        [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            url = "#"
-            company = "Company Name"
+<p><h3>Educational Research</h3><p>
+At foundry10, I conduct educational research looking at how people learn within complex social environments, across fields like virtual reality, hip hop dance, digital audio, and teacher professional development. My work describes how people construct their own understanding of the world and their place in it, assesses the value of digital technology tools in education, encourages creativity in the arts, and incorporates student voice into ed research. I aim to bring curiosity and compassion to my research and work. Here are some of my favorite methods and tools for ed research:     
+<ul><li>Network analysis: In collaboration with Young Women Empowered (Y-WE), a young women's leadership camp, I conduct service design research, analyzing ethnographic and network data to study and track year-over-year outcomes in community building, staff experience, and support structures. <a href="https://drive.google.com/file/d/1Dnde_xkDNgPqmydDsEAevV4SrRb-IQtC/view?usp=sharing">Here's a demo slide deck</a> showing how network analysis can be used for program evaluation.
+<li>Cognitive interviews: Cognitive walkthroughs are a useful method to help understand what your survey measures are actually measuring, and to make changes with rapid iterative testing. <a href="https://drive.google.com/file/d/152Uhcbiw7p3BSlNQzbQx2AHHoKwBPbiU/view?usp=sharing">Here's a poster presentation</a> showing cognitive interviewing results and recommendations for a commonly used identity measure.
+<li>Experimental user experience research: I was the research lead for an experimental study looking at engagement, empathy, and narrative in virtual reality. We presented the results of this study at GDC 2018, a prominent game developer conference. <a href="https://gdcvault.com/play/1025337/Who-Am-I-Role-and">Here's the slide deck</a> from that presentation and the <a href="https://gdcvault.com/play/1024887/Who-Am-I-Role-and">video presentation</a>. 
+<li>Persona research using survey data and cluster analysis (machine learning): While technology use in schools is fairly widespread, there is a clear 'usage gap', where some teachers use technology for student creation, exploration, and collaboration, while others primarily use technology for lower-level uses such as passive media consumption and test-taking. We collected survey responses from teachers across Washington State, identified distinct teacher personas based on their use of technology, and made recommendations for targeted teacher professional development. Presentation coming soon!
+<li>Mixed methods ethnography: in education research, it's important to understand how people develop skills through teamwork and social interaction. In <a href="http://www.foundry10.org/research/teamwork-based-developmental-outcomes-in-student-led-high-school-dance">a study looking at high school hip hop dance teams</a>, we interviewed youth about their team experiences, coded the interviews, and conducted quantitative analyses on the coded results. In another study, we <a href="http://www.foundry10.org/research/women-in-auto">interviewed women who work in the auto industry and presented</a> at auto industry conferences on how educational factors like mentorship and professional development impacted their career. 
+</ul>
 
-    # Education section
-    [params.education]
-        title = "Education"
-        icon = "fas fa-graduation-cap"
+<p><h3>Health Outcomes Research</h3><p>
 
-        [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+At Health Research Associates, I was a formidable blend of user experience researcher, ethnographer, analyst, project manager, and writer, directly interfacing with both medical patients and clients. Below are some representative projects I've led. (Please note that HRA's research activities are, in some cases, subject to sponsors' confidentiality requirements.) 
 
-    # Publication section
-    [params.publication]
-        title = "Publications"
-        icon = "fas fa-book"
-        #The order below determines the order in which the items appear in "Publications" section
-        format = ["date", "authors", "title", "journal"]
-        #If you don't want to group publications, comment the line below by adding # at the beginning
-        types = ["Journal Articles", "Proceedings"]
+<ul><li>I was the project lead at HRA for the <a href="http://c-path.org/wp-content/uploads/2015/02/2015_NSCLC_WG_Poster.pdf">PRO Consortium's Non-small cell lung cancer (NSCLC) study</a>, a multi-sponsor effort to develop a lung cancer symptom inventory that can be used to support labeling claims. Through 2016, I managed the study's literature review, protocol development, qualitative research, item generation, electronic product development (through a 3rd-party vendor), report writing, and dissemination (example posters <a href="https://github.com/scanlonm/Posters-and-articles/blob/master/Poster%201097%20-%20Scanlon%20et%20al%20-%20NSCLC%20Breathing%20Sx.pdf">here</a> and <a href="https://github.com/scanlonm/Posters-and-articles/blob/master/Poster1091_McCarrier_etal_NSCLCSymptoms.pdf">here</a>)
+<li>I believe collaborative research leads to innovative ideas and effective solutions. I’ve <b>facilitated strategy and consulting workshops</b> bringing together clients’ clinical, marketing, IT, and strategy teams, as well as key opinion leaders in the relevant field, with the goal of driving strategy and developing measurement solutions for Fortune 500 companies that keep the end users’ experiences and needs in mind. As an example, I was the project lead for a study driving internal strategy for a mid-sized pharmaceutical company's existing products for a psycho-neurological condition, with the intention of understanding the product experience from the patient's perspective. My study activities included literature review, facilitation of an internal workshop defining company's needs, interviews with clinical key opinion leaders, interviews with patients, analysis (qualitative and quantitative segmentation and comparison), and facilitation of an internal workshop outlining results. 
+<li>I developed a unique <b>concept mapping</b> approach to investigating the meaning of words patients use to describe their pain, and showed that specific words have context-dependent meaning that varies across patient conditions. [<a href="https://github.com/scanlonm/Posters-and-articles/blob/master/Language%20of%20Pain%20ISPOR%20poster%20-%20Mapping%20synonyms.pdf">poster</a>]
+</ul>
 
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Journal Articles"
+<p><h3>Statistics</h3><p>
 
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Journal Articles"
-		
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Proceedings"
+In my research I've made use of the following statistical methods:
+<ul>
+<li>Descriptive statistics
+<li>Normalization
+<li>T-tests (single sample, repeated samples, independent measures)
+<li>ANOVAs (single factor, two-factor, repeated measures, smoothing splines)
+<li>Correlation (Pearson, Spearman)
+<li>Chi-square (goodness of fit, test of independence)
+<li>Regression (simple, multiple, logit, multilevel modeling, SEM)
+<li>Social network analysis (centrality, distance, clustering, visualization) and cognitive mapping
+<li>Factor analysis (EFA, CFA)
+<li>Machine learning (cluster analysis)
+</ul>
 
-    # Project section
-    [params.project]
-        title = "Projects"
-        icon = "fas fa-project-diagram"
+<p><h3>Selected Peer-Reviewed Publications and Presentations</h3><p>
+  <ul>
+<li>[In preparation] Scanlon M, Castaneda LM, Wicks D. From access to implementation: describing teacher profiles in their uses of technology.
+<li>[Accepted] Bindman, S.W., Sobel, K., Behbakht, S., Divanji, R., Shahn, E., Scanlon, M. (2021). “Let's draw chocolate milk together”: Supports and challenges for families’ joint engagement with artistic tablet apps. In Proceedings of IDC '21: ACM Interaction  Design and Children conference, June 26-30, 2021. Athens, Greece. ACM, New York, NY, USA.  
+<li>Rubin, J, Scanlon M, Cechony A, Chen K. “Here I can just be myself”: How youth and adults collaboratively develop an identity-safe community across difference. Journal of Community Psychology, Feb. 2021.
+<li>Bonny JW, Scanlon M, Castaneda LM (2020). Variations in Psychological Factors and Experience-Dependent Changes in Team-Based Video Game Performance. Intelligence, Volume 80, May–June 2020.
+<li>Scanlon M, Cechony A, & Shahn E (2019). Cognitive interviewing for scale validation: An examination of the ISI-5. 26th Annual Meeting of the International Society for Research on Identity (ISRI), Naples, Italy, May 14, 2019. 
+<li>Scanlon M, Castaneda L (2018). Who am I? Role and Narrative in 360 video. Game Developers Conference (GDC), San Francisco, CA, March 19-23, 2018. 
+<li>Scanlon M, Swanson T, Darvasi P, & Jenson J (2017, August). The first door: gender, authority and choice in The Stanley Parable. In Proceedings of the 12th International Conference on the Foundations of Digital Games (p. 37). ACM.
+<li>Scanlon M, Setyawan J, Grebla R, McCarrier KP, Supina D, Pawaskar M, Martin M (2016). Qualitative assessment of patient-perceived impact of ADHD in adults. Presentation at 29th Annual U.S. Psychiatric and Mental Health Congress, San Antonio, TX, USA.
+<li>McCarrier, KP, Atkinson TM, DeBusk KP, Liepa AM, Scanlon M, Coons, SJ (2016). Qualitative development and content validity of the Non–Small Cell Lung Cancer Symptom Assessment Questionnaire (NSCLC-SAQ), a patient-reported outcome instrument. Clinical Therapeutics, 38(4), 794-810.
+<li>Scanlon M, McCarrier KP, Coons SJ, Martin ML, Campbell AK, DeBusk K, Lungershausen J, Kaschinski D, Arduino JM, Liepa AM. Incorporating the patient’s voice into instrument development: How do patients describe the impact of non-small cell lung cancer (NSCLC) on their breathing? 22nd Annual Conference of the International Society for Quality of Life Research, Vancouver, BC, October 21-24, 2015.
+<li>Bushnell D, Martin M, Scanlon M, Chen T, Chau D, Viswanathan H. Equivalence and measurement properties of an electronic version of the Psoriasis Symptom Inventory. Qual Life Res 23(3): 897-906, 2014.
+<li>Scanlon M, Martin ML, McCarrier KP, Wolfe M, Quintanar-Solares M (2013).  Mapping relationships among pain descriptors used by patients: Evidence from qualitative interviews in four chronic pain conditions.  Value in Health, 16(3), A31-A32.
+<li>Bushnell, DM, McCarrier KP, Scanlon M, Nelson DR, Martin ML, & Buesching DP (2013). Validation and psychometric evaluation of a health care orientation assessment. Value in Health, 16(3), A34.
+<li>Scanlon M, Wassink AB (2010). “Using acoustic trajectory information in studies of merger.” In Penn Working Papers in Linguistics 16.2 (Selected papers from NWAV 38). 
+<li>Scanlon M, Wassink AB (2010). “African American English in Urban Seattle: Accommodation and intra-speaker variation in the Pacific Northwest.” American Speech 85(2), 205-224.
+</ul>
+        </section>
+    </div>
 
-        [[params.project.list]]
-            title = "Project 1"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 2"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 3"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 4"
-            url = "#"
-            description = "Description of the project"
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-    # Skill section
-    [params.skill]
-        title = "Skills"
-        panelId = "skill-panel"
-        icon = "fas fa-cogs"
+    
 
-        [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
-            skillrating = 90
-        [[params.skill.list]]
-            skill = "Skill 3"
-            skillrating = 80
-        [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
-
-    # Hobby section
-    [params.hobby]
-        title = "Hobbies"
-        icon = "fas fa-gamepad"
-
-        [[params.hobby.list]]
-            hobby = "Cooking"
-        [[params.hobby.list]]
-            hobby = "Hiking"
-        [[params.hobby.list]]
-            hobby = "Baking"
+  </body>
+</html>
